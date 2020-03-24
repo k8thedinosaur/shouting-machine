@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Louder, now!</title>
   </head>
   <body>
     <div class="container">
-      <form id="shoutForm">
-        <h1><label for="shout">What to shout??</label></h1>
-        <input id="shout" class="form-control" type="text">
+      <div class="row">
+        <div class="main col-md-12">
+          <form id="shoutForm">
+            <div class="panel panel-default">
+              <div class="panel panel-heading">
+                <h1><label for="shout">What to shout??</label></h1>
+              </div>
+              <div class="panel panel-body">
+                <input id="shout" class="form-control" type="text">
+                <button type="submit" class="btn">Shout it!</button>
+              </div>
+              <div class="panel-footer">
+                <div id="shouted">
+                  <span class="shout"></span>!!!!!!!1!111!11!!1@
+                </div>
+              </div>
+            </div>
+          </form>
 
-        <button type="submit" class="btn">Shout it!</button>
-
-        <div id="shouted">
-          <span class="shout"></span>!!!!111!11!!1@
         </div>
       </div>
-    </form>
+    </div>
   </body>
 </html>
